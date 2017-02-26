@@ -2,13 +2,18 @@
 ppl-assignment-Trailblazerr1 created by GitHub Classroom
 
 To compile the project run   
- <pre>       ques1) commit.py  
-        ques2) main2.py
+ &nbsp;&nbsp;&nbsp;&nbsp;       ques1) commit.py  
+  &nbsp;&nbsp;&nbsp;&nbsp;       ques2) main2.py
 
-To generate mock data run
-         test.py<pre>
+To generate mock data run    
 
-Language: python3       
+ &nbsp;&nbsp;&nbsp;&nbsp;         test.py
+
+#Language:
+ &nbsp;&nbsp;&nbsp;&nbsp;python3       
    
-Tested on: Ubuntu 16.04
+#Tested on:
+ &nbsp;&nbsp;&nbsp;&nbsp;Ubuntu 16.04
 
+#Roll no.:
+ &nbsp;&nbsp;&nbsp;&nbsp;RIT2015058
