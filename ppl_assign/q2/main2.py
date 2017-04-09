@@ -1,6 +1,6 @@
 import json
 from commit import commitstatus
-from happify import happ
+from happify import happ,compat
 
 def main2def():
     initdata = commitstatus()
@@ -73,3 +73,4 @@ def main2def():
         print("done")
 
 happ()
+compat()
