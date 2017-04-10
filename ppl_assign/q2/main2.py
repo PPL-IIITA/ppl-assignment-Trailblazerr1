@@ -68,9 +68,7 @@ def main2def():
                         i+=1
                 valueg['total']=sum
 #                print(datat[sort_key[11]]['to'])
-    with open('boydata.json', 'w') as f:
-        json.dump(boyd, f)
-        print("done")
+
 
 happ()
 compat()

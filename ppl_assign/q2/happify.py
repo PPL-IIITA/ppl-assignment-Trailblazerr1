@@ -64,7 +64,7 @@ def happ():
                 couples.append([keyb, mygirl, bh, gh, happ])
     coupless = sorted(couples, key=itemgetter(4), reverse=True)
     print('Top 5 happy couples')
-    for i in range(0,5):
+    for i in range(0,len(coupless)):
         print(coupless[i][0])
 
 def compat():
@@ -77,7 +77,7 @@ def compat():
         girld = json.load(ba)
 
     couples2 = []
-    for i in range(0,5):
+    for i in range(0,len(couples)):
         boy = couples[i][0]
         girl = couples[i][1]
         for keyb, valueb in boyd.items():
@@ -97,5 +97,5 @@ def compat():
         couples2.append([boy, girl, compat])
     couplesss = sorted(couples2, key=itemgetter(2), reverse=True)
     print('Top 5 compat couples')
-    for i in range(0,5):
+    for i in range(0,len(couplesss)):
         print(couplesss[i][0])
